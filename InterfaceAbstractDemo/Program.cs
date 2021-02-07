@@ -14,7 +14,7 @@ namespace InterfaceAbstractDemo
         {
             BaseCustomerManager customerManager = new NeroCustomerManager();
             BaseCustomerManager customerManager1 = new StarbucksCustomerManager(new MernisServiceAdapter());
-            customerManager1.Save(new Customer {DateOfBirth = new DateTime(1985,1,5), FirstName = "Engin", LastName = "Demiroğ" , NationalityId = 8868878998});
+            customerManager1.Save(new Customer {DateOfBirth = new DateTime(1985,1,5), FirstName = "y", LastName = "z" , NationalityId = 8868878488998});
             Console.ReadLine();
         
         
